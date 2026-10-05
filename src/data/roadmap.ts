@@ -55,6 +55,15 @@ export const ROADMAP: readonly RoadmapMilestone[] = [
     items: ["Live on Figma Community", "Always in sync with the website"],
   },
   {
+    id: "home-travel",
+    status: "shipped",
+    when: "Oct 2026",
+    icon: "campsite",
+    title: "Home & Travel",
+    summary: "249 new icons, led by a new category for homes, stays, food, people and sport.",
+    items: ["Version 1.2 on npm", "1,249 icons in total", "Scope 1–3, HVDC, time of use and more"],
+  },
+  {
     id: "essentials",
     status: "next",
     when: "Autumn 2026",

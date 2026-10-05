@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.2.0
+
+- 249 new icons, for 1,249 in total. Every existing icon keeps its name and artwork.
+- A new Home & Travel category (172 icons): home and amenities, places, food and drink, people, and sport.
+- 77 new energy, climate, data, business and interface icons, including `scope-1`, `scope-2`, `scope-3`, `hvdc-converter`, `time-of-use`, `smart-charging`, `vehicle-to-home`, `green-steel` and `rego-certificate`.
+
 ## 1.1.1
 
 - Redrawn `fan` (all four masters): the hub is a closed circle and each blade's sides now end on it, fixing a break where the blades met the hub.

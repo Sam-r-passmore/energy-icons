@@ -12,6 +12,7 @@
  *   data                                              → data
  *   business                                          → business
  *   tools                                             → tools
+ *   home, places, food, people, sport                 → home-travel
  *   shapes, ui                                        → interface
  *
  * Categories with zero icons are hidden from the UI automatically, and appear
@@ -28,6 +29,7 @@ export const CATEGORIES = [
   { id: "data", label: "Data" },
   { id: "business", label: "Business" },
   { id: "tools", label: "Tools" },
+  { id: "home-travel", label: "Home & Travel" },
   { id: "interface", label: "Interface" },
 ] as const;
 
