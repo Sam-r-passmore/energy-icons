@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.4.0
+
+- 30 new icons, for 1,279 in total. Every existing icon keeps its name, artwork and font codepoint.
+- Industry: `anvil`, `bulldozer`, `crane-hook`, `crucible`, `dump-truck`, `forklift`, `gantry-crane`, `hydraulic-press`, `pallet`, `scaffolding`, `shipping-container`, `welding` and `welding-mask`.
+- Engineering, a new Figma category listed under Climate on the site with industry: `bearing`, `belt-drive`, `caliper`, `coupling`, `flange`, `hex-bolt`, `hex-key`, `hex-nut`, `hydraulic-cylinder`, `lever`, `pipe-elbow`, `piston`, `pulley`, `rivet`, `screw`, `spring` and `washer`.
+- The icon font includes all 30, at new codepoints after the existing ones.
+
 ## 1.3.0
 
 - Icon font: link `energy-icons/font/style.css` (for example from unpkg), then use `<i class="ei ei-wind">` for Regular or `<i class="ei-b ei-wind">` for Bold. Built from the 20px masters, about 110 KB of woff2 per weight. Codepoints ship in `energy-icons/codepoints.json` and stay fixed between releases.

@@ -6,7 +6,7 @@
  *   storage, charging, grid, electrical               → grid-storage
  *   heating, buildings                                → heat-buildings
  *   fuels                                             → fuels
- *   industry, climate, weather                        → climate
+ *   industry, engineering, climate, weather           → climate
  *   transport                                         → transport
  *   minerals                                          → industry
  *   data                                              → data
