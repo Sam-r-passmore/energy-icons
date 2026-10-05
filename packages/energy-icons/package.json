@@ -1,11 +1,11 @@
 {
   "name": "energy-icons",
-  "version": "1.2.0",
-  "description": "Open-source icons for the energy transition. React components and SVG files, MIT licensed.",
+  "version": "1.3.0",
+  "description": "Open-source icons for the energy transition. React components, SVG files and an icon font, MIT licensed.",
   "license": "MIT",
   "type": "module",
-  "sideEffects": false,
-  "files": ["dist", "svg", "README.md", "LICENSE"],
+  "sideEffects": ["*.css"],
+  "files": ["dist", "svg", "font", "codepoints.json", "README.md", "LICENSE"],
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
@@ -22,7 +22,9 @@
       "import": "./dist/icons/*.js",
       "default": "./dist/icons/*.js"
     },
-    "./svg/*": "./svg/*"
+    "./svg/*": "./svg/*",
+    "./font/*": "./font/*",
+    "./codepoints.json": "./codepoints.json"
   },
   "publishConfig": {
     "access": "public"

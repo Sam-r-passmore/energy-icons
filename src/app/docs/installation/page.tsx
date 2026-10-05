@@ -8,7 +8,7 @@ export default function InstallationPage() {
   return (
     <DocsPage
       title="Installation"
-      lead="Install the React package, or take the SVG files. Both are MIT licensed."
+      lead="Install the React package, link the icon font, or take the SVG files. All MIT licensed."
     >
       <DocSection title="React">
         <P>Requires React 18 or newer.</P>
@@ -26,6 +26,22 @@ export default function InstallationPage() {
         <CodeBlock>{`import { Pylon } from "energy-icons/icons/pylon";
 
 <Pylon size={32} />`}</CodeBlock>
+      </DocSection>
+
+      <DocSection title="Icon font">
+        <P>
+          For Webflow, WordPress or plain HTML. Add the stylesheet once, then add two classes to any element. No build
+          step and no React.
+        </P>
+        <CodeBlock>{`<link rel="stylesheet" href="https://unpkg.com/energy-icons@1/font/style.css" />`}</CodeBlock>
+        <CodeBlock>{`<i class="ei ei-wind"></i>     <!-- regular -->
+<i class="ei-b ei-wind"></i>   <!-- bold -->`}</CodeBlock>
+        <P>
+          The class is <Code>ei-</Code> plus the icon’s slug. Icons take their size from <Code>font-size</Code> and
+          their colour from <Code>color</Code>. For one weight only, link <Code>font/regular/style.css</Code> or{" "}
+          <Code>font/bold/style.css</Code>. The font uses the 20px master, so for large hero icons the SVG or React
+          component gives the 48px detail.
+        </P>
       </DocSection>
 
       <DocSection title="SVG files">

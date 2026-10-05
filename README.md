@@ -14,7 +14,17 @@ import { Icon } from "energy-icons/icon";
 <Icon name="pylon" size={32} weight="bold" />
 ```
 
-Import one icon when the bundle should stay small: `import { Pylon } from "energy-icons/icons/pylon"`. Sizes below 32 use the 20px master. Sizes from 32 up use the 48px master. See [Installation](src/app/docs/installation/page.tsx) and [Usage](src/app/docs/usage/page.tsx) in the site, and `packages/energy-icons/README.md`.
+Import one icon when the bundle should stay small: `import { Pylon } from "energy-icons/icons/pylon"`. Sizes below 32 use the 20px master. Sizes from 32 up use the 48px master.
+
+No React? Link the icon font and use classes, as with Phosphor:
+
+```html
+<link rel="stylesheet" href="https://unpkg.com/energy-icons@1/font/style.css" />
+
+<i class="ei ei-wind"></i>  <!-- bold: class="ei-b ei-wind" -->
+```
+
+See [Installation](src/app/docs/installation/page.tsx) and [Usage](src/app/docs/usage/page.tsx) in the site, and `packages/energy-icons/README.md`.
 
 The icons are free. [Support the library on Ko-fi](https://ko-fi.com/energyicons) if you want to support the drawing.
 

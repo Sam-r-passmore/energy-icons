@@ -26,6 +26,19 @@ Sizes below 32 use the 20px master. Sizes from 32 up use the 48px master. `weigh
 
 SVG files ship in the package at `energy-icons/svg/<slug>/`.
 
+## Icon font
+
+No build step or React needed. Add the stylesheet, then add classes.
+
+```html
+<link rel="stylesheet" href="https://unpkg.com/energy-icons@1/font/style.css" />
+
+<i class="ei ei-wind"></i>      <!-- regular -->
+<i class="ei-b ei-wind"></i>    <!-- bold -->
+```
+
+Icons take their size from `font-size` and their colour from `color`. To load one weight only, use `font/regular/style.css` or `font/bold/style.css`. The font uses the 20px master. Codepoints are listed in `energy-icons/codepoints.json` and never change between releases.
+
 Support the work at [ko-fi.com/energyicons](https://ko-fi.com/energyicons).
 
 ## License

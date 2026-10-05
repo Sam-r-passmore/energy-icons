@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.3.0
+
+- Icon font: link `energy-icons/font/style.css` (for example from unpkg), then use `<i class="ei ei-wind">` for Regular or `<i class="ei-b ei-wind">` for Bold. Built from the 20px masters, about 110 KB of woff2 per weight. Codepoints ship in `energy-icons/codepoints.json` and stay fixed between releases.
+
 ## 1.2.0
 
 - 249 new icons, for 1,249 in total. Every existing icon keeps its name and artwork.

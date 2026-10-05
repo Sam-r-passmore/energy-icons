@@ -1,6 +1,6 @@
 {
   "name": "energy-icons-website",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "Open-source icon library for the renewable energy and energy-transition sector.",
   "private": true,
   "engines": {
@@ -19,7 +19,7 @@
     "typecheck": "tsc --noEmit",
     "pretest": "npm run icons",
     "test": "tsx --test tests/icon-system.test.ts tests/icon-component.test.tsx tests/package-icon.test.tsx",
-    "package": "tsx scripts/build-package.ts && tsc -p packages/energy-icons",
+    "package": "tsx scripts/build-package.ts && tsx scripts/build-font.ts && tsc -p packages/energy-icons",
     "check": "npm run lint && npm run typecheck && npm test && npm run package && npm run figma && npm run build",
     "figma": "tsc -p packages/figma-plugin && tsx scripts/build-figma-plugin.ts",
     "figma:dev": "tsx scripts/build-figma-plugin.ts --dev"
@@ -38,12 +38,16 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "@types/svg2ttf": "^5.0.3",
     "esbuild": "^0.28.2",
     "eslint": "^9",
     "eslint-config-next": "16.3.6",
     "fflate": "^0.8.3",
+    "svg2ttf": "^6.1.0",
+    "svgicons2svgfont": "^16.0.0",
     "tailwindcss": "^4",
     "tsx": "^4.23.15",
-    "typescript": "^5"
+    "typescript": "^5",
+    "wawoff2": "^2.0.1"
   }
 }
