@@ -1,9 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Montserrat } from "next/font/google";
 import { GeistMono } from "geist/font/mono";
-import Script from "next/script";
-
-const GA_MEASUREMENT_ID = "G-7HJ826517V";
 
 const montserrat = Montserrat({
   subsets: ["latin"],
@@ -13,11 +10,13 @@ const montserrat = Montserrat({
 
 import { Hero } from "@/components/hero/hero";
 import { AppFrame } from "@/components/layout/app-frame";
+import { CookieBanner } from "@/components/layout/cookie-banner";
 import { LinkTracker } from "@/components/layout/link-tracker";
 import { Sidebar } from "@/components/layout/sidebar";
 import { themeInitScript } from "@/components/layout/theme";
 import { LibraryProvider } from "@/components/library/library-provider";
 import { siteConfig } from "@/config/site";
+import { analyticsInitScript } from "@/lib/consent";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -54,13 +53,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     <html lang="en" className={`${montserrat.variable} ${GeistMono.variable}`} suppressHydrationWarning>
       <head>
         <script dangerouslySetInnerHTML={{ __html: themeInitScript }} />
-        <Script src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`} strategy="beforeInteractive" />
-        <Script id="google-analytics" strategy="beforeInteractive">
-          {`window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-gtag('config', '${GA_MEASUREMENT_ID}');`}
-        </Script>
+        <script dangerouslySetInnerHTML={{ __html: analyticsInitScript }} />
       </head>
       <body className="text-[13px]">
         <LinkTracker />
@@ -70,6 +63,7 @@ gtag('config', '${GA_MEASUREMENT_ID}');`}
             <div className="flex min-w-0 flex-1 flex-col bg-main">{children}</div>
           </AppFrame>
         </LibraryProvider>
+        <CookieBanner />
       </body>
     </html>
   );

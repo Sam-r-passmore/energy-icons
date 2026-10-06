@@ -41,9 +41,9 @@ export function DocsPage({
   );
 }
 
-export function DocSection({ title, children }: { title: string; children: ReactNode }) {
+export function DocSection({ id, title, children }: { id?: string; title: string; children: ReactNode }) {
   return (
-    <section className="flex flex-col gap-3">
+    <section id={id} className="flex scroll-mt-6 flex-col gap-3">
       <h2 className="text-[14px] font-semibold text-fg">{title}</h2>
       {children}
     </section>

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 
 import { Code, DocSection, DocsPage, P } from "@/components/docs/docs-page";
+import { CookieSettingsButton } from "@/components/layout/cookie-settings-button";
 import { siteConfig } from "@/config/site";
 
 export const metadata: Metadata = { title: "License & legal" };
@@ -59,11 +60,20 @@ export default function LicensePage() {
         </P>
       </DocSection>
 
-      <DocSection title="Privacy">
+      <DocSection id="privacy" title="Privacy">
         <P>
-          This site sets no cookies and runs no analytics or tracking. Your light or dark theme choice is saved in
-          your own browser’s local storage and never leaves your device. The site is hosted on Vercel, which keeps
-          standard server logs, such as IP addresses, to operate and secure the service.
+          If you accept analytics cookies, this site uses Google Analytics 4 to see how it’s used: which pages are visited, which icons are copied or
+          downloaded, which code snippets are copied, and clicks on links to downloads, the Figma plugin, GitHub and
+          icon requests. Google Analytics sets cookies (<Code>_ga</Code> and <Code>_ga_*</Code>) and processes data
+          such as your IP address, browser and device under{" "}
+          <A href="https://policies.google.com/privacy">Google’s privacy policy</A>. If you decline, Google Analytics
+          is never loaded and no cookies are set. The site works the same either way, and you can change your mind
+          at any time: <CookieSettingsButton />.
+        </P>
+        <P>
+          Your cookie choice and light or dark theme are saved in your own browser’s local storage and never leaves your device.
+          The site is hosted on Vercel, which keeps standard server logs, such as IP addresses, to operate and secure
+          the service.
         </P>
         <P>
           Support goes through Ko-fi, under Ko-fi’s own terms and privacy policy.
