@@ -25,12 +25,15 @@
     "figma:dev": "tsx scripts/build-figma-plugin.ts --dev"
   },
   "dependencies": {
+    "@modelcontextprotocol/server": "^2.3.1",
     "dialkit": "^2.0.2",
     "geist": "^1.7.2",
+    "mcp-handler": "^2.2.0",
     "motion": "^13.4.6",
     "next": "16.3.6",
     "react": "19.2.8",
-    "react-dom": "19.2.8"
+    "react-dom": "19.2.8",
+    "zod": "^4.6.5"
   },
   "devDependencies": {
     "@figma/plugin-typings": "^1.139.0",
