@@ -12,7 +12,7 @@
  *   data                                              → data
  *   business                                          → business
  *   tools                                             → tools
- *   home, places, food, people, sport                 → home-travel
+ *   home, places, food, people, health, sport, animals → home-travel
  *   shapes, ui                                        → interface
  *
  * Categories with zero icons are hidden from the UI automatically, and appear

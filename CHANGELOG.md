@@ -1,5 +1,17 @@
 # Changelog
 
+## 1.5.0
+
+- 182 new icons, for 1,461 in total. Every existing icon keeps its name, artwork and font codepoint.
+- Status badges for core energy assets: `-alert`, `-check` and `-x` versions of `battery-storage`, `boiler`, `heat-pump-air`, `house-battery`, `hydrogen-tank`, `power-station`, `pylon`, `smart-meter`, `solar-inverter` and `substation`, plus `bolt-off` and `ev-charger-off`.
+- Engineering: `angle-grinder`, `cnc-machine`, `control-panel`, `drawing-compass`, `drill-press`, `gearbox`, `lathe`, `oil-can`, `plumb-bob`, `pressure-gauge`, `printer-3d`, `protractor`, `set-square`, `soldering-iron`, `torque-wrench` and `valve-wheel`.
+- Buildings and transport: `fire-station`, `town-hall`, `house-minus`, `ambulance`, `cable-car`, `caravan`, `cargo-ship`, `fire-engine`, `kick-scooter`, `metro`, `roundabout`, `taxi`, `car-check` and `car-plus`.
+- Climate, weather and business: `acorn`, `feather`, `mushroom`, `hail`, `hurricane`, `cloud-minus`, `banknote`, `cash-register`, `discount`, `shopping-cart-check`, `shopping-cart-plus`, `shopping-cart-x` and `tag-plus`; data: `database-plus` and `server-x`.
+- Health, a new Figma category under Home & Travel on the site: `bandage`, `blood-drop`, `crutch`, `dna`, `face-mask`, `heart-pulse`, `medical-cross`, `microscope`, `pill`, `pill-bottle`, `prescription`, `stethoscope`, `syringe`, `tooth` and `virus`.
+- Animals, also new under Home & Travel: `bear`, `cat`, `cow`, `dog`, `fox`, `frog`, `ladybird`, `owl`, `penguin`, `pig`, `rabbit`, `snail` and `turtle`. Plus `broom`, `drum`, `mop`, `plunger`, `child` and `ear`.
+- 71 interface icons, including school and office items (`abacus`, `backpack`, `binder`, `chalkboard`, `whiteboard`, `stapler`), `arrow-circle-*`, file and folder variants, maths symbols (`divide`, `equal`, `function`, `pi`, `square-root`) and `-plus`, `-minus`, `-check` and `-x` badges for common glyphs.
+- The icon font includes all 182, at new codepoints after the existing ones.
+
 ## 1.4.0
 
 - 30 new icons, for 1,279 in total. Every existing icon keeps its name, artwork and font codepoint.
