@@ -128,12 +128,12 @@ export const ROADMAP: readonly RoadmapMilestone[] = [
   },
   {
     id: "glossary",
-    status: "exploring",
-    when: "Someday",
+    status: "now",
+    when: "Autumn 2026",
     icon: "book-open",
     title: "Energy glossary",
-    summary: "A plain-English page for every icon: what it is, related terms, when to use it.",
-    items: ["Search that knows the jargon", "BESS, PPA, V2G, curtailment…"],
+    summary: "A plain-English page for the words behind the icons: what it is, what else it is called, and which glyph to use.",
+    items: ["Definitions edited without a release", "BESS, PPA, V2G, curtailment…", "Linked from the icon itself"],
   },
   {
     id: "tools",

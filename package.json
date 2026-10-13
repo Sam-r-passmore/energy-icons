@@ -21,16 +21,19 @@
     "test": "tsx --test tests/icon-system.test.ts tests/icon-component.test.tsx tests/package-icon.test.tsx",
     "package": "tsx scripts/build-package.ts && tsx scripts/build-font.ts && tsc -p packages/energy-icons",
     "check": "npm run lint && npm run typecheck && npm test && npm run package && npm run figma && npm run build",
+    "studio": "npm run dev --prefix studio",
     "figma": "tsc -p packages/figma-plugin && tsx scripts/build-figma-plugin.ts",
     "figma:dev": "tsx scripts/build-figma-plugin.ts --dev"
   },
   "dependencies": {
     "@modelcontextprotocol/server": "^2.3.1",
+    "@sanity/image-url": "^2.1.1",
     "dialkit": "^2.0.2",
     "geist": "^1.7.2",
     "mcp-handler": "^2.2.0",
     "motion": "^13.4.6",
     "next": "16.3.6",
+    "next-sanity": "^13.3.4",
     "react": "19.2.8",
     "react-dom": "19.2.8",
     "zod": "^4.6.5"

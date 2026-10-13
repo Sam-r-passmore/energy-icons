@@ -4,6 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import type { ReactNode } from "react";
 
+import { useGlossaryCount } from "@/components/glossary/glossary-provider";
 import { Logo } from "@/components/layout/logo";
 import { useLibrary } from "@/components/library/library-provider";
 import { siteConfig } from "@/config/site";
@@ -38,6 +39,7 @@ function SectionLabel({ children }: { children: ReactNode }) {
 
 export function Sidebar() {
   const pathname = usePathname();
+  const glossaryCount = useGlossaryCount();
   const { sidebarCollapsed, drawerOpen, setDrawerOpen } = useLibrary();
   const categories = getNonEmptyCategories();
   const resources = [siteConfig.links.sponsor, siteConfig.links.coffee, siteConfig.links.figma].filter(
@@ -89,6 +91,13 @@ export function Sidebar() {
             <div className="flex flex-col gap-px">
               <NavLink href="/roadmap" active={pathname === "/roadmap"}>
                 Roadmap
+              </NavLink>
+              <NavLink
+                href="/glossary"
+                active={pathname === "/glossary" || pathname.startsWith("/glossary/")}
+                count={glossaryCount > 0 ? glossaryCount : undefined}
+              >
+                Glossary
               </NavLink>
               <a
                 href={siteConfig.links.requestIcon.href}

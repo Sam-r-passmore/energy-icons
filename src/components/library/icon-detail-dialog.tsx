@@ -1,7 +1,9 @@
 "use client";
 
+import Link from "next/link";
 import { useEffect, useRef, useState, type CSSProperties, type KeyboardEvent } from "react";
 
+import { useGlossaryEntry } from "@/components/glossary/glossary-provider";
 import { BrowserIcon } from "@/components/library/browser-icon";
 import { WeightSwitch } from "@/components/library/weight-switch";
 import { CheckGlyph, CloseGlyph, CopyGlyph, DownloadGlyph } from "@/components/ui/ui-icons";
@@ -59,6 +61,7 @@ export function IconDetailDialog({ name, initialSize, initialWeight, onClose }: 
   const frameworkRefs = useRef<(HTMLButtonElement | null)[]>([]);
 
   const meta = getIconMeta(name);
+  const glossary = useGlossaryEntry(name);
   const master = getMasterForSize(size);
   const shownMaster = getMasterForSize(shown.size);
   const shownMagnified = MAGNIFIED[shownMaster];
@@ -149,6 +152,20 @@ export function IconDetailDialog({ name, initialSize, initialWeight, onClose }: 
                   ·
                 </span>
                 <span>{CATEGORY_LABELS[meta.category]}</span>
+                {glossary ? (
+                  <>
+                    <span className="text-fg-subtle" aria-hidden="true">
+                      ·
+                    </span>
+                    <Link
+                      href={`/glossary/${glossary.slug}`}
+                      onClick={() => dialogRef.current?.close()}
+                      className="underline-offset-2 hover:text-fg hover:underline"
+                    >
+                      Glossary
+                    </Link>
+                  </>
+                ) : null}
               </div>
             </div>
             <div className="flex shrink-0 items-center gap-2 max-sm:w-full max-sm:[&>label]:ml-auto">

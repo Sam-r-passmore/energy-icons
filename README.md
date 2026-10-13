@@ -46,6 +46,7 @@ npm run dev        # http://localhost:3000
 | Script | What it does |
 | --- | --- |
 | `npm run dev` | Dev server. Runs `npm run icons` first. |
+| `npm run studio` | Sanity Studio for the glossary, at http://localhost:3333. Run it beside `npm run dev`. |
 | `npm run build` / `npm start` | Production build and server. `prebuild` runs `npm run icons`. |
 | `npm run icons` | Validates `/icons` against the metadata, then regenerates the registry and the Download all zip. |
 | `npm run lint` | ESLint. |
@@ -136,7 +137,9 @@ src/
   components/layout/             Sidebar, theme toggle, menu button
   components/docs/               Docs page primitives
   components/hero/               Animated hero (WebGL field, frames) and the floating library stage
-  app/                           Routes: /, /category/[category], /docs/*
+  app/                           Routes: /, /category/[category], /docs/*, /glossary, /roadmap
+studio/                          Sanity Studio for the glossary (npm run studio)
+src/sanity/                      Sanity client, GROQ queries, live content
 design/energy-hero-settings.json  Hero field settings exported from Toolcraft
 public/downloads/energy-icons.zip  GENERATED at build time for Download all (gitignored)
 public/figma/v1/*.json           GENERATED icon data the Figma plugin loads from energyicons.com (gitignored)
@@ -145,7 +148,8 @@ tests/                           node:test suites run with tsx
 ```
 
 - **Registry.** The generator reads each SVG and stores the source file once, keyed by slug and master. viewBox and inner markup are derived from that string. `<Icon>` renders the inner markup inside an `<svg>` with the right viewBox and width/height, so rendering never rewrites paths. Copy and download take the full source string and change only the root `width` and `height`. The browser ships the Regular 48 chunk with the page (the default size). The other master of the current weight loads after paint, and Bold loads when that weight is used.
-- **Routes.** `/` shows all icons. `/category/<id>` is statically generated for each non-empty category. `/docs/adding-an-icon` and `/docs/design-principles` are plain pages. Search text and grid size live in a client context in the root layout, so they persist as you move between categories.
+- **Routes.** `/` shows all icons. `/category/<id>` is statically generated for each non-empty category. `/docs/adding-an-icon` and `/docs/design-principles` are plain pages. `/glossary` reads published definitions from Sanity. Search text and grid size live in a client context in the root layout, so they persist as you move between categories.
+- **Glossary.** Icon files and the npm package stay in git. The plain-English definitions (what a term means, its other names, and which icon depicts it) live in Sanity and render at `/glossary`. An icon with an entry links to it from the detail dialog. `npm run studio` edits them.
 - **Later.** Adding docs pages means adding routes under `src/app/docs` and a link in `src/components/layout/sidebar.tsx`. GitHub, Figma and sponsor links go in `siteConfig.links` (`src/config/site.ts`), and the sidebar shows a Resources group once any of them are set.
 
 ## Releasing

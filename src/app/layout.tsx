@@ -8,6 +8,7 @@ const montserrat = Montserrat({
   display: "swap",
 });
 
+import { GlossaryProvider } from "@/components/glossary/glossary-provider";
 import { Hero } from "@/components/hero/hero";
 import { AppFrame } from "@/components/layout/app-frame";
 import { CookieBanner } from "@/components/layout/cookie-banner";
@@ -17,6 +18,7 @@ import { themeInitScript } from "@/components/layout/theme";
 import { LibraryProvider } from "@/components/library/library-provider";
 import { siteConfig } from "@/config/site";
 import { analyticsInitScript } from "@/lib/consent";
+import { getGlossaryLinks } from "@/sanity/lib/glossary";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -48,21 +50,25 @@ export const viewport: Viewport = {
   ],
 };
 
-export default function RootLayout({ children }: LayoutProps<"/">) {
+export default async function RootLayout({ children }: LayoutProps<"/">) {
+  const glossaryLinks = await getGlossaryLinks();
+
   return (
-    <html lang="en" className={`${montserrat.variable} ${GeistMono.variable}`} suppressHydrationWarning>
+    <html lang="en" className={`${montserrat.variable} ${GeistMono.variable}`} data-scroll-behavior="smooth" suppressHydrationWarning>
       <head>
         <script dangerouslySetInnerHTML={{ __html: themeInitScript }} />
         <script dangerouslySetInnerHTML={{ __html: analyticsInitScript }} />
       </head>
       <body className="text-[13px]">
         <LinkTracker />
-        <LibraryProvider>
-          <AppFrame hero={<Hero />}>
-            <Sidebar />
-            <div className="flex min-w-0 flex-1 flex-col bg-main">{children}</div>
-          </AppFrame>
-        </LibraryProvider>
+        <GlossaryProvider entries={glossaryLinks}>
+          <LibraryProvider>
+            <AppFrame hero={<Hero />}>
+              <Sidebar />
+              <div className="flex min-w-0 flex-1 flex-col bg-main">{children}</div>
+            </AppFrame>
+          </LibraryProvider>
+        </GlossaryProvider>
         <CookieBanner />
       </body>
     </html>
