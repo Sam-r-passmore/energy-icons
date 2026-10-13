@@ -55,6 +55,15 @@ export const ROADMAP: readonly RoadmapMilestone[] = [
     items: ["Live on Figma Community", "Always in sync with the website"],
   },
   {
+    id: "glossary",
+    status: "shipped",
+    when: "Oct 2026",
+    icon: "book-open",
+    title: "Energy glossary",
+    summary: "A plain-English page for the words behind the icons: what it is, what else it is called, and which glyph to use.",
+    items: ["Definitions edited without a release", "BESS, PPA, V2G, curtailment…", "Linked from the icon itself"],
+  },
+  {
     id: "essentials",
     status: "next",
     when: "Autumn 2026",
@@ -125,15 +134,6 @@ export const ROADMAP: readonly RoadmapMilestone[] = [
     title: "Data-visualisation kit",
     summary: "A shared visual standard for energy charts, maps and dashboards.",
     items: ["Accessible fuel-type colour palette", "Map markers for every plant type", "Energy-mix legends"],
-  },
-  {
-    id: "glossary",
-    status: "now",
-    when: "Autumn 2026",
-    icon: "book-open",
-    title: "Energy glossary",
-    summary: "A plain-English page for the words behind the icons: what it is, what else it is called, and which glyph to use.",
-    items: ["Definitions edited without a release", "BESS, PPA, V2G, curtailment…", "Linked from the icon itself"],
   },
   {
     id: "tools",
