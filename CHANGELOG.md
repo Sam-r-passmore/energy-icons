@@ -1,5 +1,16 @@
 # Changelog
 
+## 1.6.0
+
+- 539 new icons, for 2,000 in total (4,000 masters across Regular and Bold). Every existing icon keeps its name, artwork and font codepoint.
+- Energy assets: hydrogen and gas infrastructure (`hydrogen-compressor`, `hydrogen-trailer`, `liquid-hydrogen`, `steam-reformer`, `lng-terminal`, `gas-holder`, `wellhead`, `tank-farm`), grid equipment (`busbar`, `disconnector`, `recloser`, `statcom`, `synchronous-condenser`, `scada`, `secondary-substation`, `monopole-pylon`), offshore foundations, nuclear, geothermal, hydro, storage cells and charging.
+- Status badges for `electrolyser`, `generator`, `geothermal-plant`, `home-battery`, `hydro-plant`, `nuclear-plant`, `solar-farm`, `thermostat` and `wind-farm`, plus `solar-inverter-off`, `solar-tracker-alert` and `wind-turbine-off`.
+- Circuit symbols and logic gates, hazard signs and PPE, engineering parts (valves, pipe fittings, gears), minerals, and tools.
+- Climate and weather: `glacier`, `permafrost`, `mangrove`, `warming-stripes`, `tsunami`, moon phases, tides and more.
+- Data: chart types, map markers for each generation type, and database and server badges. Business: market and policy icons such as `merit-order`, `price-cap`, `spot-price` and `emissions-trading`.
+- Buildings, transport, home and 101 interface icons.
+- The icon font includes all 539, at new codepoints after the existing ones.
+
 ## 1.5.0
 
 - 182 new icons, for 1,461 in total. Every existing icon keeps its name, artwork and font codepoint.

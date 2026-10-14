@@ -64,6 +64,15 @@ export const ROADMAP: readonly RoadmapMilestone[] = [
     items: ["Definitions edited without a release", "BESS, PPA, V2G, curtailment…", "Linked from the icon itself"],
   },
   {
+    id: "two-thousand",
+    status: "shipped",
+    when: "Oct 2026",
+    icon: "trophy",
+    title: "2,000 icons",
+    summary: "539 new icons across grid, hydrogen, offshore, markets, safety signs and the interface set.",
+    items: ["Version 1.6 on npm", "Status badges for core assets", "Map markers for every generation type"],
+  },
+  {
     id: "essentials",
     status: "next",
     when: "Autumn 2026",

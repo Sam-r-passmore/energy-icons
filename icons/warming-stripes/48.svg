@@ -1,0 +1,9 @@
+<svg width="48" height="48" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M43 12C43 11.4455 42.551 11 42 11H6C5.44228 11 5 11.4423 5 12V36C5 36.551 5.44554 37 6 37H42C42.5477 37 43 36.5477 43 36V12ZM45 36C45 37.6523 43.6523 39 42 39H6C4.33446 39 3 37.649 3 36V12C3 10.3377 4.33772 9 6 9H42C43.649 9 45 10.3345 45 12V36Z" fill="currentColor"/>
+<path d="M12 10V38H10V10H12Z" fill="currentColor"/>
+<path d="M19 10V38H17V10H19Z" fill="currentColor"/>
+<path d="M25 10V38H23V10H25Z" fill="currentColor"/>
+<path d="M30 10V38H28V10H30Z" fill="currentColor"/>
+<path d="M34 10V38H32V10H34Z" fill="currentColor"/>
+<path d="M38 10V38H36V10H38Z" fill="currentColor"/>
+</svg>
