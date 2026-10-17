@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.7.0
+
+- 23 new icons, for 2,023 in total. Every existing icon keeps its name, artwork and font codepoint.
+- Heat: `expansion-vessel`, `flue` and `ufh-manifold`. Solar: `ground-mount` and `solar-monitoring`. Storage: `battery-cooling` and `state-of-charge`. Grid: `net-metering` and `peak-shaving`.
+- Offshore and geothermal: `scour-protection` and `mine-water`. Fuels: `waste-to-energy`.
+- Climate and industry: `biochar`, `hedgerow`, `seaweed`, `green-jobs` and `hi-vis-vest`.
+- Data, transport and business: `cybersecurity`, `drone-inspection`, `cycle-lane`, `park-and-ride`, `contract-for-difference` and `green-bond`.
+- The icon font includes all 23, at new codepoints after the existing ones.
+
 ## 1.6.0
 
 - 539 new icons, for 2,000 in total (4,000 masters across Regular and Bold). Every existing icon keeps its name, artwork and font codepoint.

@@ -50,6 +50,12 @@ export const icons = [
     keywords: ["floatovoltaics", "reservoir", "PV", "water"],
   },
   {
+    slug: "ground-mount",
+    name: "Ground mount",
+    category: "generation",
+    keywords: ["ground-mounted solar", "racking", "PV array", "solar farm"],
+  },
+  {
     slug: "house-solar",
     name: "House solar",
     category: "generation",
@@ -222,6 +228,12 @@ export const icons = [
     name: "Solar meter",
     category: "generation",
     keywords: ["generation meter", "PV", "kWh"],
+  },
+  {
+    slug: "solar-monitoring",
+    name: "Solar monitoring",
+    category: "generation",
+    keywords: ["PV monitoring", "generation", "yield", "dashboard"],
   },
   {
     slug: "solar-panel",
@@ -722,6 +734,12 @@ export const icons = [
     keywords: ["ROV", "underwater robot", "subsea"],
   },
   {
+    slug: "scour-protection",
+    name: "Scour protection",
+    category: "generation",
+    keywords: ["rock armour", "seabed", "foundation", "monopile"],
+  },
+  {
     slug: "seabed-habitat",
     name: "Seabed habitat",
     category: "generation",
@@ -1028,6 +1046,12 @@ export const icons = [
     keywords: ["magma", "volcano", "heat source", "geothermal"],
   },
   {
+    slug: "mine-water",
+    name: "Mine water",
+    category: "generation",
+    keywords: ["mine water heat", "flooded mines", "geothermal", "heat source"],
+  },
+  {
     slug: "volcano",
     name: "Volcano",
     category: "generation",
@@ -1200,6 +1224,12 @@ export const icons = [
     name: "Battery container",
     category: "grid-storage",
     keywords: ["BESS", "containerised storage", "grid battery"],
+  },
+  {
+    slug: "battery-cooling",
+    name: "Battery cooling",
+    category: "grid-storage",
+    keywords: ["thermal management", "BMS", "coolant", "temperature"],
   },
   {
     slug: "battery-cycle",
@@ -1446,6 +1476,12 @@ export const icons = [
     name: "Second life battery",
     category: "grid-storage",
     keywords: ["second life", "reuse", "battery"],
+  },
+  {
+    slug: "state-of-charge",
+    name: "State of charge",
+    category: "grid-storage",
+    keywords: ["SoC", "battery level", "percent", "charge level"],
   },
   {
     slug: "supercapacitor",
@@ -2066,6 +2102,12 @@ export const icons = [
     keywords: ["monopole", "T-pylon", "transmission", "pylon"],
   },
   {
+    slug: "net-metering",
+    name: "Net metering",
+    category: "grid-storage",
+    keywords: ["import", "export", "bidirectional meter", "feed-in"],
+  },
+  {
     slug: "outage-map",
     name: "Outage map",
     category: "grid-storage",
@@ -2076,6 +2118,12 @@ export const icons = [
     name: "Peak demand",
     category: "grid-storage",
     keywords: ["peak demand", "peak load", "grid"],
+  },
+  {
+    slug: "peak-shaving",
+    name: "Peak shaving",
+    category: "grid-storage",
+    keywords: ["peak demand", "demand charge", "load management", "flatten"],
   },
   {
     slug: "phase-shifter",
@@ -2594,6 +2642,12 @@ export const icons = [
     keywords: ["heater", "panel heater", "space heating", "electric"],
   },
   {
+    slug: "expansion-vessel",
+    name: "Expansion vessel",
+    category: "heat-buildings",
+    keywords: ["expansion tank", "pressure vessel", "heating system", "boiler"],
+  },
+  {
     slug: "extractor-fan",
     name: "Extractor fan",
     category: "heat-buildings",
@@ -2610,6 +2664,12 @@ export const icons = [
     name: "Flame",
     category: "heat-buildings",
     keywords: ["fire", "gas", "heat", "burn", "combustion"],
+  },
+  {
+    slug: "flue",
+    name: "Flue",
+    category: "heat-buildings",
+    keywords: ["boiler flue", "chimney", "exhaust", "vent"],
   },
   {
     slug: "frost-protection",
@@ -2838,6 +2898,12 @@ export const icons = [
     name: "Thermostat x",
     category: "heat-buildings",
     keywords: ["thermostat", "heating", "remove", "fault", "offline"],
+  },
+  {
+    slug: "ufh-manifold",
+    name: "UFH manifold",
+    category: "heat-buildings",
+    keywords: ["underfloor heating", "manifold", "heating loops", "floor heating"],
   },
   {
     slug: "underfloor-heating",
@@ -3734,6 +3800,12 @@ export const icons = [
     keywords: ["UCO", "used cooking oil", "biodiesel", "waste oil"],
   },
   {
+    slug: "waste-to-energy",
+    name: "Waste to energy",
+    category: "fuels",
+    keywords: ["EfW", "energy from waste", "incineration", "rubbish"],
+  },
+  {
     slug: "wellhead",
     name: "Wellhead",
     category: "fuels",
@@ -3950,6 +4022,12 @@ export const icons = [
     keywords: ["gear", "machinery", "cog"],
   },
   {
+    slug: "green-jobs",
+    name: "Green jobs",
+    category: "climate",
+    keywords: ["just transition", "workforce", "skills", "employment"],
+  },
+  {
     slug: "green-steel",
     name: "Green steel",
     category: "climate",
@@ -4002,6 +4080,12 @@ export const icons = [
     name: "Hazard toxic",
     category: "climate",
     keywords: ["toxic", "poison", "skull", "hazard sign"],
+  },
+  {
+    slug: "hi-vis-vest",
+    name: "Hi-vis vest",
+    category: "climate",
+    keywords: ["high visibility", "PPE", "safety vest", "workwear"],
   },
   {
     slug: "hydraulic-press",
@@ -4496,6 +4580,12 @@ export const icons = [
     keywords: ["bee", "pollinator", "nature"],
   },
   {
+    slug: "biochar",
+    name: "Biochar",
+    category: "climate",
+    keywords: ["carbon removal", "pyrolysis", "soil carbon", "charcoal"],
+  },
+  {
     slug: "biodiversity",
     name: "Biodiversity",
     category: "climate",
@@ -4736,6 +4826,12 @@ export const icons = [
     keywords: ["extreme heat", "hot", "climate impact"],
   },
   {
+    slug: "hedgerow",
+    name: "Hedgerow",
+    category: "climate",
+    keywords: ["hedge", "farmland", "biodiversity", "nature"],
+  },
+  {
     slug: "ice-melt",
     name: "Ice melt",
     category: "climate",
@@ -4932,6 +5028,12 @@ export const icons = [
     name: "Sea level rise",
     category: "climate",
     keywords: ["coastal flooding", "climate risk", "ocean"],
+  },
+  {
+    slug: "seaweed",
+    name: "Seaweed",
+    category: "climate",
+    keywords: ["kelp", "blue carbon", "algae", "ocean"],
   },
   {
     slug: "seed",
@@ -5426,6 +5528,12 @@ export const icons = [
     keywords: ["container ship", "freight", "shipping", "logistics"],
   },
   {
+    slug: "cycle-lane",
+    name: "Cycle lane",
+    category: "transport",
+    keywords: ["bike lane", "active travel", "cycling", "road"],
+  },
+  {
     slug: "delivery-robot",
     name: "Delivery robot",
     category: "transport",
@@ -5574,6 +5682,12 @@ export const icons = [
     name: "Motorcycle",
     category: "transport",
     keywords: ["motorbike", "scooter", "two-wheeler"],
+  },
+  {
+    slug: "park-and-ride",
+    name: "Park and ride",
+    category: "transport",
+    keywords: ["P+R", "bus", "parking", "commute"],
   },
   {
     slug: "parking",
@@ -6056,6 +6170,12 @@ export const icons = [
     keywords: ["waterfall chart", "bridge", "graph"],
   },
   {
+    slug: "cybersecurity",
+    name: "Cybersecurity",
+    category: "data",
+    keywords: ["security", "network", "OT security", "protection"],
+  },
+  {
     slug: "dashboard",
     name: "Dashboard",
     category: "data",
@@ -6102,6 +6222,12 @@ export const icons = [
     name: "Digital twin",
     category: "data",
     keywords: ["digital twin", "model", "simulation", "virtual"],
+  },
+  {
+    slug: "drone-inspection",
+    name: "Drone inspection",
+    category: "data",
+    keywords: ["UAV", "survey", "inspection", "asset monitoring"],
   },
   {
     slug: "emissions-report",
@@ -6494,6 +6620,12 @@ export const icons = [
     keywords: ["agreement", "PPA", "document"],
   },
   {
+    slug: "contract-for-difference",
+    name: "Contract for difference",
+    category: "business",
+    keywords: ["CfD", "strike price", "auction", "subsidy"],
+  },
+  {
     slug: "credit-card",
     name: "Credit card",
     category: "business",
@@ -6570,6 +6702,12 @@ export const icons = [
     name: "Grant",
     category: "business",
     keywords: ["grant", "funding", "subsidy"],
+  },
+  {
+    slug: "green-bond",
+    name: "Green bond",
+    category: "business",
+    keywords: ["sustainable finance", "climate bond", "investment", "ESG"],
   },
   {
     slug: "growth",
