@@ -6626,6 +6626,12 @@ export const icons = [
     keywords: ["CfD", "strike price", "auction", "subsidy"],
   },
   {
+    slug: "coupon",
+    name: "Coupon",
+    category: "business",
+    keywords: ["voucher", "discount", "promo code", "offer"],
+  },
+  {
     slug: "credit-card",
     name: "Credit card",
     category: "business",
@@ -8276,6 +8282,12 @@ export const icons = [
     keywords: ["mask", "PPE", "protection", "hygiene"],
   },
   {
+    slug: "flask",
+    name: "Flask",
+    category: "home-travel",
+    keywords: ["lab", "chemistry", "science", "beaker"],
+  },
+  {
     slug: "heart-pulse",
     name: "Heart pulse",
     category: "home-travel",
@@ -8322,6 +8334,12 @@ export const icons = [
     name: "Syringe",
     category: "home-travel",
     keywords: ["injection", "vaccine", "needle", "medical"],
+  },
+  {
+    slug: "test-tube",
+    name: "Test tube",
+    category: "home-travel",
+    keywords: ["lab", "sample", "science", "chemistry"],
   },
   {
     slug: "tooth",
@@ -8714,10 +8732,22 @@ export const icons = [
     keywords: ["warning", "stop", "octagon"],
   },
   {
+    slug: "align-bottom",
+    name: "Align bottom",
+    category: "interface",
+    keywords: ["align", "bottom edge", "layout", "arrange"],
+  },
+  {
     slug: "align-center",
     name: "Align center",
     category: "interface",
     keywords: ["text alignment", "centre", "paragraph", "format"],
+  },
+  {
+    slug: "align-horizontal",
+    name: "Align horizontal",
+    category: "interface",
+    keywords: ["align", "horizontal centre", "layout", "arrange"],
   },
   {
     slug: "align-justify",
@@ -8736,6 +8766,12 @@ export const icons = [
     name: "Align right",
     category: "interface",
     keywords: ["text alignment", "right", "paragraph", "format"],
+  },
+  {
+    slug: "align-top",
+    name: "Align top",
+    category: "interface",
+    keywords: ["align", "top edge", "layout", "arrange"],
   },
   {
     slug: "align-vertical",
@@ -9026,6 +9062,24 @@ export const icons = [
     keywords: ["bag", "shopping", "tote"],
   },
   {
+    slug: "bag-check",
+    name: "Bag check",
+    category: "interface",
+    keywords: ["bag", "purchased", "order complete", "shopping"],
+  },
+  {
+    slug: "bag-plus",
+    name: "Bag plus",
+    category: "interface",
+    keywords: ["bag", "add to bag", "shopping", "new"],
+  },
+  {
+    slug: "balloon",
+    name: "Balloon",
+    category: "interface",
+    keywords: ["party", "celebration", "birthday", "event"],
+  },
+  {
     slug: "ban",
     name: "Ban",
     category: "interface",
@@ -9078,6 +9132,12 @@ export const icons = [
     name: "Binder",
     category: "interface",
     keywords: ["ring binder", "folder", "documents", "office"],
+  },
+  {
+    slug: "binoculars",
+    name: "Binoculars",
+    category: "interface",
+    keywords: ["explore", "search", "lookout", "view"],
   },
   {
     slug: "bluetooth",
@@ -9224,6 +9284,12 @@ export const icons = [
     keywords: ["date range", "period", "booking", "schedule", "from to"],
   },
   {
+    slug: "calendar-star",
+    name: "Calendar star",
+    category: "interface",
+    keywords: ["event", "favourite date", "highlight", "schedule"],
+  },
+  {
     slug: "calendar-x",
     name: "Calendar x",
     category: "interface",
@@ -9252,6 +9318,12 @@ export const icons = [
     name: "Camera switch",
     category: "interface",
     keywords: ["switch camera", "flip", "selfie", "camera"],
+  },
+  {
+    slug: "caps-lock",
+    name: "Caps lock",
+    category: "interface",
+    keywords: ["keyboard", "key", "uppercase", "capitals"],
   },
   {
     slug: "captions",
@@ -9572,6 +9644,18 @@ export const icons = [
     keywords: ["clock", "time", "9 o'clock"],
   },
   {
+    slug: "clock-alert",
+    name: "Clock alert",
+    category: "interface",
+    keywords: ["overdue", "time", "warning", "late"],
+  },
+  {
+    slug: "clock-check",
+    name: "Clock check",
+    category: "interface",
+    keywords: ["on time", "time", "done", "completed"],
+  },
+  {
     slug: "clock-plus",
     name: "Clock plus",
     category: "interface",
@@ -9776,6 +9860,12 @@ export const icons = [
     keywords: ["globe", "geography", "world", "school"],
   },
   {
+    slug: "devices",
+    name: "Devices",
+    category: "interface",
+    keywords: ["responsive", "desktop", "mobile", "multi-device"],
+  },
+  {
     slug: "dice-1",
     name: "Dice 1",
     category: "interface",
@@ -9822,6 +9912,18 @@ export const icons = [
     name: "Disc",
     category: "interface",
     keywords: ["disc", "CD", "DVD", "media"],
+  },
+  {
+    slug: "distribute-horizontal",
+    name: "Distribute horizontal",
+    category: "interface",
+    keywords: ["distribute", "spacing", "layout", "arrange"],
+  },
+  {
+    slug: "distribute-vertical",
+    name: "Distribute vertical",
+    category: "interface",
+    keywords: ["distribute", "spacing", "layout", "arrange"],
   },
   {
     slug: "divide",
@@ -10008,6 +10110,12 @@ export const icons = [
     name: "File search",
     category: "interface",
     keywords: ["find", "document", "magnify", "lookup"],
+  },
+  {
+    slug: "file-sparkle",
+    name: "File sparkle",
+    category: "interface",
+    keywords: ["AI", "generated document", "magic", "file"],
   },
   {
     slug: "file-spreadsheet",
@@ -10430,6 +10538,12 @@ export const icons = [
     keywords: ["add image", "upload photo", "picture", "new"],
   },
   {
+    slug: "image-sparkle",
+    name: "Image sparkle",
+    category: "interface",
+    keywords: ["AI", "generated image", "magic", "picture"],
+  },
+  {
     slug: "image-x",
     name: "Image x",
     category: "interface",
@@ -10464,6 +10578,12 @@ export const icons = [
     name: "Italic",
     category: "interface",
     keywords: ["text", "format", "typography"],
+  },
+  {
+    slug: "joystick",
+    name: "Joystick",
+    category: "interface",
+    keywords: ["gaming", "controller", "arcade", "control"],
   },
   {
     slug: "key",
@@ -10544,10 +10664,28 @@ export const icons = [
     keywords: ["letter case", "Aa", "text", "typography"],
   },
   {
+    slug: "letter-spacing",
+    name: "Letter spacing",
+    category: "interface",
+    keywords: ["tracking", "kerning", "typography", "text"],
+  },
+  {
     slug: "lifebuoy",
     name: "Lifebuoy",
     category: "interface",
     keywords: ["help", "support", "life ring", "rescue", "safety"],
+  },
+  {
+    slug: "lightbulb-sparkle",
+    name: "Lightbulb sparkle",
+    category: "interface",
+    keywords: ["AI", "idea", "suggestion", "insight"],
+  },
+  {
+    slug: "line-height",
+    name: "Line height",
+    category: "interface",
+    keywords: ["leading", "line spacing", "typography", "text"],
   },
   {
     slug: "link",
@@ -10602,6 +10740,12 @@ export const icons = [
     name: "Lock",
     category: "interface",
     keywords: ["secure", "private", "padlock"],
+  },
+  {
+    slug: "lock-check",
+    name: "Lock check",
+    category: "interface",
+    keywords: ["secured", "locked", "verified", "security"],
   },
   {
     slug: "lock-keyhole",
@@ -10668,6 +10812,12 @@ export const icons = [
     name: "Mail search",
     category: "interface",
     keywords: ["search mail", "email", "find", "inbox"],
+  },
+  {
+    slug: "mail-unread",
+    name: "Mail unread",
+    category: "interface",
+    keywords: ["new mail", "notification", "email", "inbox"],
   },
   {
     slug: "mail-x",
@@ -10790,10 +10940,28 @@ export const icons = [
     keywords: ["typing", "message", "chat", "dots"],
   },
   {
+    slug: "message-heart",
+    name: "Message heart",
+    category: "interface",
+    keywords: ["love", "reaction", "chat", "favourite"],
+  },
+  {
     slug: "message-plus",
     name: "Message plus",
     category: "interface",
     keywords: ["message", "new", "chat"],
+  },
+  {
+    slug: "message-question",
+    name: "Message question",
+    category: "interface",
+    keywords: ["help", "FAQ", "support", "chat"],
+  },
+  {
+    slug: "message-sparkle",
+    name: "Message sparkle",
+    category: "interface",
+    keywords: ["AI", "assistant", "chat", "magic"],
   },
   {
     slug: "message-square",
@@ -10958,6 +11126,12 @@ export const icons = [
     keywords: ["notes", "notebook", "pen", "write"],
   },
   {
+    slug: "option-key",
+    name: "Option key",
+    category: "interface",
+    keywords: ["keyboard", "alt", "key", "shortcut"],
+  },
+  {
     slug: "outdent",
     name: "Outdent",
     category: "interface",
@@ -11054,6 +11228,12 @@ export const icons = [
     keywords: ["pilcrow", "text", "formatting", "paragraph mark"],
   },
   {
+    slug: "passkey",
+    name: "Passkey",
+    category: "interface",
+    keywords: ["passwordless", "sign in", "authentication", "user key"],
+  },
+  {
     slug: "password",
     name: "Password",
     category: "interface",
@@ -11088,6 +11268,12 @@ export const icons = [
     name: "Pen",
     category: "interface",
     keywords: ["pen", "write", "edit"],
+  },
+  {
+    slug: "pen-sparkle",
+    name: "Pen sparkle",
+    category: "interface",
+    keywords: ["AI", "write", "generate text", "edit"],
   },
   {
     slug: "pencil",
@@ -11420,6 +11606,12 @@ export const icons = [
     keywords: ["find", "magnifier", "lookup"],
   },
   {
+    slug: "search-sparkle",
+    name: "Search sparkle",
+    category: "interface",
+    keywords: ["AI search", "smart search", "magic", "find"],
+  },
+  {
     slug: "send",
     name: "Send",
     category: "interface",
@@ -11468,6 +11660,12 @@ export const icons = [
     keywords: ["secure", "verified", "protection", "safe"],
   },
   {
+    slug: "shield-lock",
+    name: "Shield lock",
+    category: "interface",
+    keywords: ["security", "protected", "privacy", "lock"],
+  },
+  {
     slug: "shield-off",
     name: "Shield off",
     category: "interface",
@@ -11480,10 +11678,22 @@ export const icons = [
     keywords: ["shield", "security", "protection", "add", "plus"],
   },
   {
+    slug: "shield-user",
+    name: "Shield user",
+    category: "interface",
+    keywords: ["account security", "admin", "protected user", "privacy"],
+  },
+  {
     slug: "shield-x",
     name: "Shield x",
     category: "interface",
     keywords: ["shield", "blocked", "security"],
+  },
+  {
+    slug: "shift-key",
+    name: "Shift key",
+    category: "interface",
+    keywords: ["keyboard", "shift", "key", "uppercase"],
   },
   {
     slug: "shirt",
@@ -11600,6 +11810,12 @@ export const icons = [
     keywords: ["smartphone", "mobile", "phone", "check", "ok", "verified"],
   },
   {
+    slug: "smartphone-vibrate",
+    name: "Smartphone vibrate",
+    category: "interface",
+    keywords: ["vibration", "silent", "phone", "notification"],
+  },
+  {
     slug: "smile",
     name: "Smile",
     category: "interface",
@@ -11628,6 +11844,18 @@ export const icons = [
     name: "Sort descending",
     category: "interface",
     keywords: ["sort", "descending", "Z-A"],
+  },
+  {
+    slug: "space-bar",
+    name: "Space bar",
+    category: "interface",
+    keywords: ["keyboard", "space", "key"],
+  },
+  {
+    slug: "sparkle",
+    name: "Sparkle",
+    category: "interface",
+    keywords: ["AI", "magic", "star", "new"],
   },
   {
     slug: "sparkles",
@@ -11762,6 +11990,12 @@ export const icons = [
     keywords: ["sync", "refresh", "update"],
   },
   {
+    slug: "tab-key",
+    name: "Tab key",
+    category: "interface",
+    keywords: ["keyboard", "tab", "key", "indent"],
+  },
+  {
     slug: "tablet",
     name: "Tablet",
     category: "interface",
@@ -11784,6 +12018,12 @@ export const icons = [
     name: "Terminal square",
     category: "interface",
     keywords: ["terminal", "console", "command"],
+  },
+  {
+    slug: "text-color",
+    name: "Text color",
+    category: "interface",
+    keywords: ["text colour", "font colour", "typography", "format"],
   },
   {
     slug: "text-cursor",

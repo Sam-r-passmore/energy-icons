@@ -1,5 +1,15 @@
 # Changelog
 
+## 1.8.0
+
+- 40 new icons, for 2,063 in total. Every existing icon keeps its name, artwork and font codepoint.
+- AI and sparkle: `sparkle`, `message-sparkle`, `search-sparkle`, `image-sparkle`, `pen-sparkle`, `file-sparkle` and `lightbulb-sparkle`.
+- Keyboard and text: `shift-key`, `caps-lock`, `option-key`, `space-bar`, `tab-key`, `text-color`, `line-height` and `letter-spacing`.
+- Layout: `align-top`, `align-bottom`, `align-horizontal`, `distribute-horizontal` and `distribute-vertical`.
+- Security, messages and status: `shield-lock`, `shield-user`, `passkey`, `lock-check`, `mail-unread`, `message-question`, `message-heart`, `clock-check`, `clock-alert` and `calendar-star`.
+- Everyday: `bag-plus`, `bag-check`, `coupon`, `devices`, `smartphone-vibrate`, `joystick`, `balloon` and `binoculars`. Health: `flask` and `test-tube`.
+- The icon font includes all 40, at new codepoints after the existing ones.
+
 ## 1.7.0
 
 - 23 new icons, for 2,023 in total. Every existing icon keeps its name, artwork and font codepoint.
